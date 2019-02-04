@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/login_welcomeSV"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/login_usernameSV"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/input_Username"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="@string/login_usernameSV"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/login_passwordSV"
+        android:textAlignment="viewStart"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/input_Password"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginStart="5dp"
+        android:ems="10"
+        android:hint="@string/login_passwordSV"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:elevation="0dp"
+        android:text="@string/login_loginButtonSV"
+        android:textAlignment="center"
+        android:onClick="onClickLogin"/>
+
+</LinearLayout>

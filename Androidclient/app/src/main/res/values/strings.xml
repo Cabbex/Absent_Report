@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AbsentReport</string>
+    <string name="login_usernameSV">Användarnamn</string>
+    <string name="login_passwordSV">Lösenord</string>
+    <string name="login_loginButtonSV">Logga in</string>
+    <string name="login_welcomeSV">Välkommen</string>
+    <string name="submit_submitButtonSV">Anmäl frånvaro</string>
+    <string name="submit_dateTitleSV">Dagens datum</string>
+    <string name="submit_reasonTitleSV">Orsak:</string>
+</resources>

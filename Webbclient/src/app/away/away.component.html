@@ -1,0 +1,23 @@
+<div class="col-lg-12">
+    <div class="panel">
+        <div class="panel-header">
+            <h3 class="panel-title text-center"> Frånvarande </h3>
+        </div>
+        <div class="panel-body">
+        <table class="table table-border table-hover">
+            <tr>
+                <th>Namn</th>
+                <th>Status</th>
+                <th>Datum tillbaka</th>
+                <th>Chef</th>
+            </tr>
+            <tr *ngFor="let employee of employeesAway">
+                <td> {{employee.full_name}} </td>
+                <td> {{employee.status}} </td>
+                <td> {{employee.returnDate}} </td>
+                <td> {{employee.manager}} </td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</div>
